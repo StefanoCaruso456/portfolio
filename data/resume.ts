@@ -23,8 +23,7 @@ export type SkillGroup = {
 export const resumeIntro = {
   eyebrow: "Experience",
   title: "Career depth across AI product, data systems, and founder-led delivery.",
-  description:
-    "The resume content is organized as a clear operating narrative: what Stefano owned, where he created leverage, and which capabilities show up repeatedly across product, engineering, analytics, and go-to-market work.",
+  description: "",
   resumeHref: "/resume-stefano-caruso.pdf",
   resumeLabel: "Open resume PDF",
 };
