@@ -185,6 +185,13 @@ export const portfolioProjects: Project[] = [
     category: "AI Collaboration",
     url: "https://brainstormaigauntletai.com/login",
     repoUrl: "https://github.com/StefanoCaruso456/BrainstormAI",
+    resourceLinks: [
+      {
+        href: "https://drive.google.com/file/d/14zLSi5d-HE8GgUiTT8nE-voQYIkcJQyR/view?usp=sharing",
+        label: "Demo video",
+        tone: "blue",
+      },
+    ],
     domain: "brainstormaigauntletai.com",
     thumbnail: "/projects/brainstorm-gauntlet.png",
     headline:
