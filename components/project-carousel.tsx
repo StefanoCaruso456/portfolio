@@ -278,42 +278,42 @@ export function ProjectCarousel({ projects }: ProjectCarouselProps) {
 
                 <div className="mt-auto grid grid-cols-2 gap-3">
                   <a
-                    className="rounded-[18px] border border-white/6 bg-black/18 px-3 py-3 transition hover:border-white/12 hover:bg-white/[0.04]"
+                    className="rounded-[18px] border border-sky-400/18 bg-sky-500/8 px-3 py-3 transition hover:border-sky-300/30 hover:bg-sky-400/12"
                     href={project.url}
                     rel="noreferrer"
                     target="_blank"
                   >
                     <div className="flex items-center justify-between gap-3">
                       <div>
-                        <p className="text-[10px] uppercase tracking-[0.2em] text-white/34">
+                        <p className="text-[10px] uppercase tracking-[0.2em] text-sky-200/72">
                           Live
                         </p>
-                        <p className="mt-1 text-xs text-white/62">
+                        <p className="mt-1 text-xs text-white/78">
                           Open project
                         </p>
                       </div>
-                      <span className="neo-button flex h-10 w-10 items-center justify-center rounded-full text-white/82">
+                      <span className="flex h-10 w-10 items-center justify-center rounded-full border border-sky-300/24 bg-sky-400/16 text-sky-100 shadow-[inset_0_1px_0_rgba(255,255,255,0.14),0_12px_24px_rgba(14,165,233,0.18)]">
                         <ArrowUpRight className="h-4 w-4" />
                       </span>
                     </div>
                   </a>
 
                   <a
-                    className="rounded-[18px] border border-white/6 bg-black/18 px-3 py-3 transition hover:border-white/12 hover:bg-white/[0.04]"
+                    className="rounded-[18px] border border-emerald-400/18 bg-emerald-500/8 px-3 py-3 transition hover:border-emerald-300/30 hover:bg-emerald-400/12"
                     href={project.repoUrl}
                     rel="noreferrer"
                     target="_blank"
                   >
                     <div className="flex items-center justify-between gap-3">
                       <div>
-                        <p className="text-[10px] uppercase tracking-[0.2em] text-white/34">
+                        <p className="text-[10px] uppercase tracking-[0.2em] text-emerald-200/72">
                           Repo
                         </p>
-                        <p className="mt-1 text-xs text-white/62">
+                        <p className="mt-1 text-xs text-white/78">
                           GitHub source
                         </p>
                       </div>
-                      <span className="neo-button flex h-10 w-10 items-center justify-center rounded-full text-white/82">
+                      <span className="flex h-10 w-10 items-center justify-center rounded-full border border-emerald-300/24 bg-emerald-400/16 text-emerald-100 shadow-[inset_0_1px_0_rgba(255,255,255,0.14),0_12px_24px_rgba(16,185,129,0.18)]">
                         <GitBranch className="h-4 w-4" />
                       </span>
                     </div>
