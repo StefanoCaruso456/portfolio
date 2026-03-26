@@ -31,7 +31,7 @@ export const resumeIntro = {
 export const resumeRoles: ResumeRole[] = [
   {
     company: "Gauntlet AI",
-    title: "AI Fellowship & Product Engineer",
+    title: "AI Product Engineer",
     period: "Feb 2026 - May 2026",
     context:
       "Built multi-agent product systems inside an AI factory model, combining product strategy with hands-on implementation.",
