@@ -276,6 +276,18 @@ export function ProjectCarousel({ projects }: ProjectCarouselProps) {
                   </div>
                 </a>
 
+                {project.demoUrl ? (
+                  <a
+                    className="inline-flex items-center gap-2 self-start rounded-full border border-sky-400/20 bg-sky-500/10 px-3 py-1.5 text-[11px] font-medium text-sky-200 transition hover:border-sky-300/36 hover:bg-sky-400/16 hover:text-sky-100"
+                    href={project.demoUrl}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <span>{project.demoLabel ?? "Demo video"}</span>
+                    <ArrowUpRight className="h-3.5 w-3.5" />
+                  </a>
+                ) : null}
+
                 <div className="mt-auto grid grid-cols-2 gap-3">
                   <a
                     className="rounded-[18px] border border-sky-400/18 bg-sky-500/8 px-3 py-3 transition hover:border-sky-300/30 hover:bg-sky-400/12"

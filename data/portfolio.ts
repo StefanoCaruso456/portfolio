@@ -3,6 +3,8 @@ export type Project = {
   category: string;
   url: string;
   repoUrl: string;
+  demoUrl?: string;
+  demoLabel?: string;
   domain: string;
   thumbnail: string;
   headline: string;
@@ -148,6 +150,9 @@ export const portfolioProjects: Project[] = [
     category: "AI Workflow / Project Ops",
     url: "https://d1woqw06xb054i.cloudfront.net/login",
     repoUrl: "https://github.com/StefanoCaruso456/ShipShape_Gov",
+    demoUrl:
+      "https://drive.google.com/file/d/17MQodDZHqxKdO2rYlhgGQg62u18MT46s/view?usp=drive_link",
+    demoLabel: "Main app demo",
     domain: "d1woqw06xb054i.cloudfront.net",
     thumbnail: "/projects/ship.png",
     headline:
