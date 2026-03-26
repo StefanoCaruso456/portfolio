@@ -120,7 +120,7 @@ export const resumeRoles: ResumeRole[] = [
   },
   {
     company: "Uva Mare",
-    title: "CEO",
+    title: "Founder",
     period: "Jan 2016 - Jul 2022",
     context:
       "Built a consulting business around analytics, client retention, and revenue growth across multiple business functions.",
