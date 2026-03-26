@@ -42,10 +42,11 @@ export const portfolioContent: {
   stack: StackItem[];
 } = {
   name: "Stefano Caruso",
-  role: "Product builder for AI-first software, workflow systems, and launch-ready interfaces",
-  intro: "Building live software surfaces that turn complex product ideas into clear user experiences.",
+  role: "AI-first Product Leader",
+  intro:
+    "AI-first Product Leader with over 16 years of experience in data, and a strong track record in team building, stakeholder alignment and product delivery.",
   description:
-    "This portfolio is framed around real products instead of static mockups: AI collaboration, seismic intelligence, wealth tooling, runtime ops, and AI-assisted home design.",
+    "Leverages data and first-principles thinking to drive execution and business outcomes.",
   availability:
     "Open for product strategy, design systems, AI workflow design, and full-stack delivery for ambitious software teams.",
   navigation: ["Projects", "Services", "Process", "Stack", "Next Build"],

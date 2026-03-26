@@ -34,6 +34,7 @@ body {
     linear-gradient(135deg, #05070c 0%, #0b0f17 45%, #121725 100%);
   color: var(--foreground);
   font-family: var(--font-manrope), sans-serif;
+  overflow-x: clip;
 }
 
 body::before {
