@@ -174,9 +174,9 @@ export const portfolioProjects: Project[] = [
     domain: "brainstormaigauntletai.com",
     thumbnail: "/projects/brainstorm-gauntlet.png",
     headline:
-      "A real-time AI-powered canvas built to help teams think clearly, align faster, and ship sooner.",
+      "Miro-style collaborative whiteboard where teams brainstorm, plan, and align in real time with AI layered directly into the canvas experience.",
     summary:
-      "The interface positions AI as a collaborative layer for ideation and decision-making, pairing a clean landing experience with a fast on-ramp into the product.",
+      "BrainStorm AI is built like a real-time team board system, using WebSocket and Yjs to keep multiplayer collaboration fast and synchronized. The product combines shared canvas workflows with AI-assisted ideation so distributed teams can think together, organize work visually, and move from discussion to execution faster.",
     tags: ["Collaboration", "AI canvas", "Team alignment", "Realtime"],
     highlights: [
       {
