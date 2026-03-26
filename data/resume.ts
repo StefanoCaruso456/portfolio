@@ -55,6 +55,12 @@ export const resumeRoles: ResumeRole[] = [
     context:
       "Leading an AI-native platform at the intersection of home design, project planning, and contractor matching.",
     badges: ["Founder", "Customer research", "Full-stack build"],
+    logoSrc: "/logos/projectz-ai.png",
+    logoAlt: "Projectz AI logo",
+    logoWidth: 26,
+    logoHeight: 38,
+    logoClassName: "rounded-[6px]",
+    logoFrameClassName: "bg-[#141922] border-white/10 overflow-hidden",
     highlights: [
       "Ran customer research, surveys, and UX studies to identify unmet needs and shape the product direction.",
       "Used early beta adoption to validate demand signals, refine the moat, and surface the highest-value workflow problems.",
