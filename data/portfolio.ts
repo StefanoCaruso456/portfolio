@@ -3,6 +3,8 @@ export type Project = {
   category: string;
   url: string;
   repoUrl: string;
+  demoUrl?: string;
+  demoLabel?: string;
   domain: string;
   thumbnail: string;
   headline: string;
@@ -148,6 +150,9 @@ export const portfolioProjects: Project[] = [
     category: "AI Workflow / Project Ops",
     url: "https://d1woqw06xb054i.cloudfront.net/login",
     repoUrl: "https://github.com/StefanoCaruso456/ShipShape_Gov",
+    demoUrl:
+      "https://drive.google.com/file/d/17MQodDZHqxKdO2rYlhgGQg62u18MT46s/view?usp=drive_link",
+    demoLabel: "Main app demo",
     domain: "d1woqw06xb054i.cloudfront.net",
     thumbnail: "/projects/ship.png",
     headline:
@@ -174,9 +179,9 @@ export const portfolioProjects: Project[] = [
     domain: "brainstormaigauntletai.com",
     thumbnail: "/projects/brainstorm-gauntlet.png",
     headline:
-      "A real-time AI-powered canvas built to help teams think clearly, align faster, and ship sooner.",
+      "Miro-style collaborative whiteboard where teams brainstorm, plan, and align in real time with AI layered directly into the canvas experience.",
     summary:
-      "The interface positions AI as a collaborative layer for ideation and decision-making, pairing a clean landing experience with a fast on-ramp into the product.",
+      "BrainStorm AI is built like a real-time team board system, using WebSocket and Yjs to keep multiplayer collaboration fast and synchronized. The product combines shared canvas workflows with AI-assisted ideation so distributed teams can think together, organize work visually, and move from discussion to execution faster.",
     tags: ["Collaboration", "AI canvas", "Team alignment", "Realtime"],
     highlights: [
       {
@@ -197,9 +202,9 @@ export const portfolioProjects: Project[] = [
     domain: "nationalseismichazardmaps.com",
     thumbnail: "/projects/national-seismic.png",
     headline:
-      "Seismic code intelligence for understanding a legacy technical codebase with confidence.",
+      "Brownfield codebase audit platform for onboarding new hires, mapping dependencies and risk, and helping teams understand legacy systems with confidence.",
     summary:
-      "LegacyLens reframes a dense engineering system as something explorable, searchable, and explainable through chat, graph/hybrid search, and code-focused analysis modes.",
+      "LegacyLens helps engineers, product managers, and cross-functional teams audit complex legacy codebases by making dependencies, risks, system architecture, data flows, and user flows searchable and explainable. It supports faster onboarding for new hires, clearer planning across existing teams, and safer decision-making for organizations working inside brownfield systems.",
     tags: ["Legacy systems", "RAG", "Search", "Technical analysis"],
     highlights: [
       {
