@@ -250,9 +250,6 @@ export function ProjectCarousel({ projects }: ProjectCarouselProps) {
                       <span className="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[10px] font-medium text-white/55">
                         {project.category}
                       </span>
-                      <span className="text-[10px] uppercase tracking-[0.18em] text-white/32">
-                        {project.domain}
-                      </span>
                     </div>
 
                     <div className="space-y-2">
