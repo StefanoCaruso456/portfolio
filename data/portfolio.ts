@@ -159,7 +159,7 @@ export const portfolioProjects: Project[] = [
       {
         href: "https://drive.google.com/file/d/17MQodDZHqxKdO2rYlhgGQg62u18MT46s/view?usp=drive_link",
         label: "Main app demo",
-        tone: "blue",
+        tone: "violet",
       },
     ],
     domain: "d1woqw06xb054i.cloudfront.net",
@@ -185,6 +185,13 @@ export const portfolioProjects: Project[] = [
     category: "AI Collaboration",
     url: "https://brainstormaigauntletai.com/login",
     repoUrl: "https://github.com/StefanoCaruso456/BrainstormAI",
+    resourceLinks: [
+      {
+        href: "https://drive.google.com/file/d/14zLSi5d-HE8GgUiTT8nE-voQYIkcJQyR/view?usp=sharing",
+        label: "Demo video",
+        tone: "violet",
+      },
+    ],
     domain: "brainstormaigauntletai.com",
     thumbnail: "/projects/brainstorm-gauntlet.png",
     headline:
@@ -212,7 +219,7 @@ export const portfolioProjects: Project[] = [
       {
         href: "https://docs.google.com/videos/d/1E3QMDWkAdKTNO_135hMyiX9fMYaxbUs5oTHdef_syQI/edit?usp=sharing",
         label: "Demo video",
-        tone: "blue",
+        tone: "violet",
       },
     ],
     domain: "nationalseismichazardmaps.com",
@@ -242,7 +249,7 @@ export const portfolioProjects: Project[] = [
       {
         href: "https://drive.google.com/file/d/1AM-8tT-vDfUGwB0fp8NTAGKIabXndpJH/view?usp=sharing",
         label: "Demo video",
-        tone: "blue",
+        tone: "violet",
       },
     ],
     domain: "app.ghostclone.xyz",
