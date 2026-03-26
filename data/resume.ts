@@ -31,7 +31,7 @@ export const resumeIntro = {
 export const resumeRoles: ResumeRole[] = [
   {
     company: "Gauntlet AI",
-    title: "AI Fellowship & Product Engineer",
+    title: "AI Product Engineer",
     period: "Feb 2026 - May 2026",
     context:
       "Built multi-agent product systems inside an AI factory model, combining product strategy with hands-on implementation.",
@@ -120,10 +120,10 @@ export const resumeRoles: ResumeRole[] = [
   },
   {
     company: "Uva Mare",
-    title: "CEO",
+    title: "Founder",
     period: "Jan 2016 - Jul 2022",
     context:
-      "Built a consulting business around analytics, client retention, and revenue growth across multiple business functions.",
+      "Built and led a global import business alongside a data analytics consulting practice, combining client delivery, operational execution, and revenue growth across multiple business functions.",
     badges: ["100+ accounts", "50% YoY growth", "$10.8M client value"],
     highlights: [
       "Grew the business through customer success, retention, and management of more than 100 accounts.",

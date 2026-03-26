@@ -151,9 +151,9 @@ export const portfolioProjects: Project[] = [
     domain: "d1woqw06xb054i.cloudfront.net",
     thumbnail: "/projects/ship.png",
     headline:
-      "Project management and documentation wrapped around accountability and a context-aware assistant.",
+      "Jira-like product management and documentation platform with an event-driven AI layer and a chat assistant for dependencies, program insight, and issue-level context.",
     summary:
-      "The product combines structured docs, action items, and operational follow-through inside a single workspace, with FleetGraph helping teams reason about active work.",
+      "Ship brings programs, projects, issues, and documentation into one operating workspace. One AI system runs quietly in the background through event-triggered automations, while a second chat assistant reliably surfaces dependencies, risks, and data insights across the delivery workflow.",
     tags: ["Docs", "Team ops", "Accountability", "Assistant UX"],
     highlights: [
       {
