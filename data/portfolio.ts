@@ -208,6 +208,13 @@ export const portfolioProjects: Project[] = [
     category: "Code Intelligence",
     url: "https://www.nationalseismichazardmaps.com/",
     repoUrl: "https://github.com/StefanoCaruso456/National-Seismic-Hazard-Maps",
+    resourceLinks: [
+      {
+        href: "https://docs.google.com/videos/d/1E3QMDWkAdKTNO_135hMyiX9fMYaxbUs5oTHdef_syQI/edit?usp=sharing",
+        label: "Demo video",
+        tone: "blue",
+      },
+    ],
     domain: "nationalseismichazardmaps.com",
     thumbnail: "/projects/national-seismic.png",
     headline:
@@ -231,6 +238,13 @@ export const portfolioProjects: Project[] = [
     category: "Wealth Dashboard",
     url: "https://app.ghostclone.xyz/en/start",
     repoUrl: "https://github.com/StefanoCaruso456/Ghostfolio",
+    resourceLinks: [
+      {
+        href: "https://drive.google.com/file/d/1AM-8tT-vDfUGwB0fp8NTAGKIabXndpJH/view?usp=sharing",
+        label: "Demo video",
+        tone: "blue",
+      },
+    ],
     domain: "app.ghostclone.xyz",
     thumbnail: "/projects/ghostclone.png",
     headline:
@@ -257,9 +271,9 @@ export const portfolioProjects: Project[] = [
     domain: "shipyard1.vercel.app",
     thumbnail: "/projects/shipyard.png",
     headline:
-      "A runtime workspace for turning repo questions and implementation tasks into executable product work.",
+      "Codex-style AI software generator and execution harness built to turn scoped software requests into structured delivery work.",
     summary:
-      "Shipyard is positioned like an operating console: project inventory on the side, guided prompts in the middle, and a workflow that encourages scoped action instead of vague requests.",
+      "Shipyard is a Codex-inspired runtime surface for generating software, coordinating agent-driven execution, and moving from prompts into real implementation. It is being developed as part of a broader AI software factory direction, where agent swarms can operate like delivery teams instead of isolated assistants.",
     tags: ["Developer tooling", "Runtime", "Prompt ops", "Execution"],
     highlights: [
       {
