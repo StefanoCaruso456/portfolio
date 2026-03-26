@@ -240,15 +240,15 @@ export function ProjectCarousel({ projects }: ProjectCarouselProps) {
                       src={project.thumbnail}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#05070d]/58 via-transparent to-white/6" />
-                    <div className="absolute left-3 top-3 rounded-full border border-white/10 bg-black/35 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.22em] text-white/68 backdrop-blur-md">
-                      Live capture
-                    </div>
                   </div>
 
                   <div className="space-y-3">
                     <div className="flex flex-wrap items-center gap-2">
                       <span className="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[10px] font-medium text-white/55">
                         {project.category}
+                      </span>
+                      <span className="rounded-full border border-white/8 bg-black/20 px-2.5 py-1 text-[10px] font-medium uppercase tracking-[0.14em] text-white/48">
+                        {project.buildTime}
                       </span>
                     </div>
 

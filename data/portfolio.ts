@@ -7,6 +7,7 @@ export type ProjectResourceLink = {
 export type Project = {
   title: string;
   category: string;
+  buildTime: string;
   url: string;
   repoUrl: string;
   resourceLinks?: ProjectResourceLink[];
@@ -153,6 +154,7 @@ export const portfolioProjects: Project[] = [
   {
     title: "Ship",
     category: "AI Workflow / Project Ops",
+    buildTime: "6-day build",
     url: "https://d1woqw06xb054i.cloudfront.net/login",
     repoUrl: "https://github.com/StefanoCaruso456/ShipShape_Gov",
     resourceLinks: [
@@ -183,6 +185,7 @@ export const portfolioProjects: Project[] = [
   {
     title: "BrainStorm AI",
     category: "AI Collaboration",
+    buildTime: "6-day build",
     url: "https://brainstormaigauntletai.com/login",
     repoUrl: "https://github.com/StefanoCaruso456/BrainstormAI",
     resourceLinks: [
@@ -213,6 +216,7 @@ export const portfolioProjects: Project[] = [
   {
     title: "LegacyLens",
     category: "Code Intelligence",
+    buildTime: "6-day build",
     url: "https://www.nationalseismichazardmaps.com/",
     repoUrl: "https://github.com/StefanoCaruso456/National-Seismic-Hazard-Maps",
     resourceLinks: [
@@ -243,6 +247,7 @@ export const portfolioProjects: Project[] = [
   {
     title: "Ghostclone",
     category: "Wealth Dashboard",
+    buildTime: "6-day build",
     url: "https://app.ghostclone.xyz/en/start",
     repoUrl: "https://github.com/StefanoCaruso456/Ghostfolio",
     resourceLinks: [
@@ -273,6 +278,7 @@ export const portfolioProjects: Project[] = [
   {
     title: "Shipyard",
     category: "Runtime Tooling",
+    buildTime: "6-day build",
     url: "https://shipyard1.vercel.app/",
     repoUrl: "https://github.com/StefanoCaruso456/ShipYard",
     domain: "shipyard1.vercel.app",
@@ -296,6 +302,7 @@ export const portfolioProjects: Project[] = [
   {
     title: "Projectz AI",
     category: "AI Design Marketplace",
+    buildTime: "5-month build",
     url: "https://projectzai.com/",
     repoUrl: "https://github.com/StefanoCaruso456/ProjectzAI",
     resourceLinks: [
