@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowUpRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowUpRight, ChevronLeft, ChevronRight, GitBranch } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Project } from "@/data/portfolio";
 
@@ -209,83 +209,117 @@ export function ProjectCarousel({ projects }: ProjectCarouselProps) {
         >
           <div className="flex w-max gap-4 sm:gap-5" ref={trackRef}>
             {loopedProjects.map(({ project, copyIndex }, index) => (
-              <a
+              <article
                 className="group neo-panel flex w-[280px] shrink-0 flex-col gap-4 rounded-[26px] p-3 transition-transform duration-300 hover:-translate-y-1 sm:w-[320px] sm:p-4 lg:w-[360px]"
                 data-project-card
-                href={project.url}
                 key={`${project.title}-${copyIndex}-${index}`}
-                rel="noreferrer"
-                target="_blank"
               >
-                <div className="neo-inset relative aspect-[0.94/1] overflow-hidden rounded-[22px]">
-                  <Image
-                    alt={`${project.title} homepage`}
-                    className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
-                    draggable={false}
-                    fill
-                    priority={copyIndex === 1 && index === projects.length}
-                    sizes="(max-width: 768px) 70vw, 360px"
-                    src={project.thumbnail}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#05070d]/58 via-transparent to-white/6" />
-                  <div className="absolute left-3 top-3 rounded-full border border-white/10 bg-black/35 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.22em] text-white/68 backdrop-blur-md">
-                    Live capture
-                  </div>
-                </div>
-
-                <div className="space-y-3">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span className="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[10px] font-medium text-white/55">
-                      {project.category}
-                    </span>
-                    <span className="text-[10px] uppercase tracking-[0.18em] text-white/32">
-                      {project.domain}
-                    </span>
+                <a
+                  className="block space-y-4"
+                  href={project.url}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <div className="neo-inset relative aspect-[0.94/1] overflow-hidden rounded-[22px]">
+                    <Image
+                      alt={`${project.title} homepage`}
+                      className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
+                      draggable={false}
+                      fill
+                      priority={copyIndex === 1 && index === projects.length}
+                      sizes="(max-width: 768px) 70vw, 360px"
+                      src={project.thumbnail}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#05070d]/58 via-transparent to-white/6" />
+                    <div className="absolute left-3 top-3 rounded-full border border-white/10 bg-black/35 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.22em] text-white/68 backdrop-blur-md">
+                      Live capture
+                    </div>
                   </div>
 
-                  <div className="space-y-2">
-                    <h3 className="display-font text-[1.75rem] font-semibold leading-none tracking-tight text-white">
-                      {project.title}
-                    </h3>
-                    <p
-                      className="text-sm leading-6 text-white/72 sm:text-[0.95rem]"
-                      style={{
-                        WebkitBoxOrient: "vertical",
-                        WebkitLineClamp: 4,
-                        display: "-webkit-box",
-                        overflow: "hidden",
-                      }}
-                    >
-                      {project.headline}
-                    </p>
-                  </div>
-
-                  <div className="flex flex-wrap gap-2">
-                    {project.tags.slice(0, 3).map((tag) => (
-                      <span
-                        className="rounded-full border border-white/8 bg-black/20 px-2.5 py-1 text-[10px] text-white/52"
-                        key={tag}
-                      >
-                        {tag}
+                  <div className="space-y-3">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-[10px] font-medium text-white/55">
+                        {project.category}
                       </span>
-                    ))}
-                  </div>
-                </div>
+                      <span className="text-[10px] uppercase tracking-[0.18em] text-white/32">
+                        {project.domain}
+                      </span>
+                    </div>
 
-                <div className="mt-auto flex items-center justify-between gap-3 rounded-[18px] border border-white/6 bg-black/18 px-3 py-3">
-                  <div>
-                    <p className="text-[10px] uppercase tracking-[0.2em] text-white/34">
-                      Open live project
-                    </p>
-                    <p className="mt-1 text-xs text-white/62">
-                      Visit the running experience.
-                    </p>
+                    <div className="space-y-2">
+                      <h3 className="display-font text-[1.75rem] font-semibold leading-none tracking-tight text-white">
+                        {project.title}
+                      </h3>
+                      <p
+                        className="text-sm leading-6 text-white/72 sm:text-[0.95rem]"
+                        style={{
+                          WebkitBoxOrient: "vertical",
+                          WebkitLineClamp: 4,
+                          display: "-webkit-box",
+                          overflow: "hidden",
+                        }}
+                      >
+                        {project.headline}
+                      </p>
+                    </div>
+
+                    <div className="flex flex-wrap gap-2">
+                      {project.tags.slice(0, 3).map((tag) => (
+                        <span
+                          className="rounded-full border border-white/8 bg-black/20 px-2.5 py-1 text-[10px] text-white/52"
+                          key={tag}
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                  <span className="neo-button flex h-10 w-10 items-center justify-center rounded-full text-white/82">
-                    <ArrowUpRight className="h-4 w-4" />
-                  </span>
+                </a>
+
+                <div className="mt-auto grid grid-cols-2 gap-3">
+                  <a
+                    className="rounded-[18px] border border-white/6 bg-black/18 px-3 py-3 transition hover:border-white/12 hover:bg-white/[0.04]"
+                    href={project.url}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <div className="flex items-center justify-between gap-3">
+                      <div>
+                        <p className="text-[10px] uppercase tracking-[0.2em] text-white/34">
+                          Live
+                        </p>
+                        <p className="mt-1 text-xs text-white/62">
+                          Open project
+                        </p>
+                      </div>
+                      <span className="neo-button flex h-10 w-10 items-center justify-center rounded-full text-white/82">
+                        <ArrowUpRight className="h-4 w-4" />
+                      </span>
+                    </div>
+                  </a>
+
+                  <a
+                    className="rounded-[18px] border border-white/6 bg-black/18 px-3 py-3 transition hover:border-white/12 hover:bg-white/[0.04]"
+                    href={project.repoUrl}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <div className="flex items-center justify-between gap-3">
+                      <div>
+                        <p className="text-[10px] uppercase tracking-[0.2em] text-white/34">
+                          Repo
+                        </p>
+                        <p className="mt-1 text-xs text-white/62">
+                          GitHub source
+                        </p>
+                      </div>
+                      <span className="neo-button flex h-10 w-10 items-center justify-center rounded-full text-white/82">
+                        <GitBranch className="h-4 w-4" />
+                      </span>
+                    </div>
+                  </a>
                 </div>
-              </a>
+              </article>
             ))}
           </div>
         </div>

@@ -2,6 +2,7 @@ export type Project = {
   title: string;
   category: string;
   url: string;
+  repoUrl: string;
   domain: string;
   thumbnail: string;
   headline: string;
@@ -146,6 +147,7 @@ export const portfolioProjects: Project[] = [
     title: "Ship",
     category: "AI Workflow / Project Ops",
     url: "https://d1woqw06xb054i.cloudfront.net/login",
+    repoUrl: "https://github.com/StefanoCaruso456/Ship",
     domain: "d1woqw06xb054i.cloudfront.net",
     thumbnail: "/projects/ship.png",
     headline:
@@ -168,6 +170,7 @@ export const portfolioProjects: Project[] = [
     title: "BrainStorm AI",
     category: "AI Collaboration",
     url: "https://brainstormaigauntletai.com/login",
+    repoUrl: "https://github.com/StefanoCaruso456/BrainstormAI",
     domain: "brainstormaigauntletai.com",
     thumbnail: "/projects/brainstorm-gauntlet.png",
     headline:
@@ -190,6 +193,7 @@ export const portfolioProjects: Project[] = [
     title: "LegacyLens",
     category: "Code Intelligence",
     url: "https://www.nationalseismichazardmaps.com/",
+    repoUrl: "https://github.com/StefanoCaruso456/National-Seismic-Hazard-Maps",
     domain: "nationalseismichazardmaps.com",
     thumbnail: "/projects/national-seismic.png",
     headline:
@@ -212,6 +216,7 @@ export const portfolioProjects: Project[] = [
     title: "Ghostclone",
     category: "Wealth Dashboard",
     url: "https://app.ghostclone.xyz/en/start",
+    repoUrl: "https://github.com/StefanoCaruso456/Ghostfolio",
     domain: "app.ghostclone.xyz",
     thumbnail: "/projects/ghostclone.png",
     headline:
@@ -234,6 +239,7 @@ export const portfolioProjects: Project[] = [
     title: "Shipyard",
     category: "Runtime Tooling",
     url: "https://shipyard1.vercel.app/",
+    repoUrl: "https://github.com/StefanoCaruso456/ShipYard",
     domain: "shipyard1.vercel.app",
     thumbnail: "/projects/shipyard.png",
     headline:
@@ -256,6 +262,7 @@ export const portfolioProjects: Project[] = [
     title: "Projectz AI",
     category: "AI Design Marketplace",
     url: "https://projectzai.com/",
+    repoUrl: "https://github.com/StefanoCaruso456/ProjectzAI",
     domain: "projectzai.com",
     thumbnail: "/projects/projectzai.png",
     headline:

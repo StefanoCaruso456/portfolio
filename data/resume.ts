@@ -9,6 +9,8 @@ export type ResumeRole = {
   logoAlt?: string;
   logoWidth?: number;
   logoHeight?: number;
+  logoClassName?: string;
+  logoFrameClassName?: string;
   note?: string;
 };
 
@@ -23,6 +25,8 @@ export const resumeIntro = {
   title: "Career depth across AI product, data systems, and founder-led delivery.",
   description:
     "The resume content is organized as a clear operating narrative: what Stefano owned, where he created leverage, and which capabilities show up repeatedly across product, engineering, analytics, and go-to-market work.",
+  resumeHref: "/resume-stefano-caruso.pdf",
+  resumeLabel: "Open resume PDF",
 };
 
 export const resumeRoles: ResumeRole[] = [
@@ -37,6 +41,8 @@ export const resumeRoles: ResumeRole[] = [
     logoAlt: "Gauntlet AI logo",
     logoWidth: 24,
     logoHeight: 30,
+    logoClassName: "opacity-90",
+    logoFrameClassName: "bg-white/[0.03] border-white/10",
     highlights: [
       "Built and orchestrated AI agent systems within a BMAD-style AI factory architecture for structured end-to-end application delivery.",
       "Used MCP, agent skills, and tool calling to improve reasoning quality, performance, and task execution reliability.",
@@ -67,6 +73,8 @@ export const resumeRoles: ResumeRole[] = [
     logoAlt: "Hyatt logo",
     logoWidth: 76,
     logoHeight: 18,
+    logoClassName: "brightness-0 invert opacity-80",
+    logoFrameClassName: "bg-white/[0.03] border-white/10",
     highlights: [
       "Led the flow from extraction through AWS ingestion, S3 storage, Snowflake staging, transformation, and ThoughtSpot consumption.",
       "Drove data-governance work including personal-data masking to support security and compliance.",
@@ -84,6 +92,8 @@ export const resumeRoles: ResumeRole[] = [
     logoAlt: "Tesla logo",
     logoWidth: 22,
     logoHeight: 22,
+    logoClassName: "brightness-0 invert opacity-82",
+    logoFrameClassName: "bg-white/[0.03] border-white/10",
     highlights: [
       "Owned frontend UX/UI for a vehicle defect tracking system used daily by 30K internal users.",
       "Led stakeholder alignment and prioritized Jira epics, features, and issues that drove a 6.25% increase in ROI.",
@@ -100,8 +110,9 @@ export const resumeRoles: ResumeRole[] = [
     badges: ["Finance dashboards", "BigQuery", "ROI metrics"],
     logoSrc: "/logos/the-home-depot.svg",
     logoAlt: "The Home Depot logo",
-    logoWidth: 28,
-    logoHeight: 28,
+    logoWidth: 34,
+    logoHeight: 34,
+    logoFrameClassName: "bg-[#151922] border-white/8",
     highlights: [
       "Wrote SQL powering a major finance dashboard and the ROI / OKR metrics behind it.",
       "Partnered with data engineers on backend pipeline design in Google BigQuery and metric definitions that drove decision-ready insights.",

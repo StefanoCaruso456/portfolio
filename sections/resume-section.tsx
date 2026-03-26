@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ArrowUpRight } from "lucide-react";
 import {
   resumeCertifications,
   resumeEducation,
@@ -23,6 +24,17 @@ export function ResumeSection() {
             <p className="text-sm leading-7 text-white/62 sm:text-base">
               {resumeIntro.description}
             </p>
+            <div className="pt-1">
+              <a
+                className="neo-button inline-flex items-center gap-2 rounded-full px-5 py-3 text-sm font-semibold text-white"
+                href={resumeIntro.resumeHref}
+                rel="noreferrer"
+                target="_blank"
+              >
+                {resumeIntro.resumeLabel}
+                <ArrowUpRight className="h-4 w-4" />
+              </a>
+            </div>
           </div>
         </div>
       </Reveal>
@@ -52,14 +64,26 @@ export function ResumeSection() {
                     </p>
                     <div className="flex items-center gap-3">
                       {role.logoSrc ? (
-                        <div className="inline-flex h-12 min-w-12 items-center justify-center rounded-[14px] bg-[#f4f6f8] px-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.4),0_10px_30px_rgba(0,0,0,0.18)]">
-                          <Image
-                            alt={role.logoAlt ?? `${role.company} logo`}
-                            className="h-auto w-auto object-contain"
-                            height={role.logoHeight ?? 24}
-                            src={role.logoSrc}
-                            width={role.logoWidth ?? 24}
-                          />
+                        <div
+                          className={`inline-flex h-12 min-w-12 items-center justify-center rounded-[14px] border px-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.06),0_14px_30px_rgba(0,0,0,0.24)] backdrop-blur-sm ${
+                            role.logoFrameClassName ?? "border-white/8 bg-white/[0.03]"
+                          }`}
+                        >
+                          <div
+                            className="relative shrink-0"
+                            style={{
+                              height: role.logoHeight ?? 24,
+                              width: role.logoWidth ?? 24,
+                            }}
+                          >
+                            <Image
+                              alt={role.logoAlt ?? `${role.company} logo`}
+                              className={`object-contain ${role.logoClassName ?? ""}`}
+                              fill
+                              sizes={`${role.logoWidth ?? 24}px`}
+                              src={role.logoSrc}
+                            />
+                          </div>
                         </div>
                       ) : null}
 
