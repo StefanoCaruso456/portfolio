@@ -1,10 +1,15 @@
+export type ProjectResourceLink = {
+  href: string;
+  label: string;
+  tone?: "amber" | "blue" | "violet";
+};
+
 export type Project = {
   title: string;
   category: string;
   url: string;
   repoUrl: string;
-  demoUrl?: string;
-  demoLabel?: string;
+  resourceLinks?: ProjectResourceLink[];
   domain: string;
   thumbnail: string;
   headline: string;
@@ -150,9 +155,13 @@ export const portfolioProjects: Project[] = [
     category: "AI Workflow / Project Ops",
     url: "https://d1woqw06xb054i.cloudfront.net/login",
     repoUrl: "https://github.com/StefanoCaruso456/ShipShape_Gov",
-    demoUrl:
-      "https://drive.google.com/file/d/17MQodDZHqxKdO2rYlhgGQg62u18MT46s/view?usp=drive_link",
-    demoLabel: "Main app demo",
+    resourceLinks: [
+      {
+        href: "https://drive.google.com/file/d/17MQodDZHqxKdO2rYlhgGQg62u18MT46s/view?usp=drive_link",
+        label: "Main app demo",
+        tone: "blue",
+      },
+    ],
     domain: "d1woqw06xb054i.cloudfront.net",
     thumbnail: "/projects/ship.png",
     headline:
@@ -268,6 +277,13 @@ export const portfolioProjects: Project[] = [
     category: "AI Design Marketplace",
     url: "https://projectzai.com/",
     repoUrl: "https://github.com/StefanoCaruso456/ProjectzAI",
+    resourceLinks: [
+      {
+        href: "/pitch-decks/projectz-ai-pitch-deck.pdf",
+        label: "Pitch deck",
+        tone: "amber",
+      },
+    ],
     domain: "projectzai.com",
     thumbnail: "/projects/projectzai.png",
     headline:

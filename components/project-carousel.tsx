@@ -11,6 +11,15 @@ type ProjectCarouselProps = {
 
 const AUTO_SCROLL_SPEED = 28;
 
+const resourceToneClassNames = {
+  amber:
+    "border-amber-400/20 bg-amber-500/10 text-amber-200 hover:border-amber-300/36 hover:bg-amber-400/16 hover:text-amber-100",
+  blue:
+    "border-sky-400/20 bg-sky-500/10 text-sky-200 hover:border-sky-300/36 hover:bg-sky-400/16 hover:text-sky-100",
+  violet:
+    "border-violet-400/20 bg-violet-500/10 text-violet-200 hover:border-violet-300/36 hover:bg-violet-400/16 hover:text-violet-100",
+} as const;
+
 export function ProjectCarousel({ projects }: ProjectCarouselProps) {
   const scrollerRef = useRef<HTMLDivElement>(null);
   const trackRef = useRef<HTMLDivElement>(null);
@@ -276,16 +285,23 @@ export function ProjectCarousel({ projects }: ProjectCarouselProps) {
                   </div>
                 </a>
 
-                {project.demoUrl ? (
-                  <a
-                    className="inline-flex items-center gap-2 self-start rounded-full border border-sky-400/20 bg-sky-500/10 px-3 py-1.5 text-[11px] font-medium text-sky-200 transition hover:border-sky-300/36 hover:bg-sky-400/16 hover:text-sky-100"
-                    href={project.demoUrl}
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <span>{project.demoLabel ?? "Demo video"}</span>
-                    <ArrowUpRight className="h-3.5 w-3.5" />
-                  </a>
+                {project.resourceLinks?.length ? (
+                  <div className="flex flex-wrap gap-2">
+                    {project.resourceLinks.map((resource) => (
+                      <a
+                        className={`inline-flex items-center gap-2 self-start rounded-full border px-3 py-1.5 text-[11px] font-medium transition ${
+                          resourceToneClassNames[resource.tone ?? "blue"]
+                        }`}
+                        href={resource.href}
+                        key={`${project.title}-${resource.label}`}
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        <span>{resource.label}</span>
+                        <ArrowUpRight className="h-3.5 w-3.5" />
+                      </a>
+                    ))}
+                  </div>
                 ) : null}
 
                 <div className="mt-auto grid grid-cols-2 gap-3">
