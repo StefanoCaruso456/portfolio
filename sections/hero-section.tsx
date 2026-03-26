@@ -9,7 +9,7 @@ export function HeroSection() {
       className="neo-panel overflow-hidden rounded-[38px] px-5 py-8 sm:px-7 sm:py-9 lg:px-10 lg:py-10"
       id="top"
     >
-      <div className="grid gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(260px,0.62fr)] lg:items-center">
+      <div className="grid gap-8 lg:grid-cols-[minmax(0,1.15fr)_minmax(220px,0.5fr)] lg:items-center">
         <Reveal className="space-y-8">
           <div className="space-y-5">
             <p className="eyebrow text-xs font-semibold text-white/42">Overview</p>
@@ -36,14 +36,14 @@ export function HeroSection() {
         </Reveal>
 
         <Reveal className="flex justify-center lg:justify-end" delay={0.12}>
-          <div className="neo-panel w-full max-w-[320px] rounded-[30px] p-3 sm:max-w-[340px] sm:p-4">
+          <div className="neo-panel w-full max-w-[240px] rounded-[28px] p-3 sm:max-w-[270px]">
             <div className="neo-inset relative aspect-[0.84/1] overflow-hidden rounded-[24px]">
               <Image
                 alt={`${portfolioContent.name} portrait`}
                 className="object-cover"
                 fill
                 priority
-                sizes="(max-width: 1024px) 72vw, 340px"
+                sizes="(max-width: 1024px) 52vw, 270px"
                 src="/profile/profile-pic.png"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#06080f]/24 via-transparent to-transparent" />
