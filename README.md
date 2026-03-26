@@ -30,7 +30,7 @@ Executive product portfolio built to showcase live launches, career depth, and a
 
 | Project | Live | Repo |
 | --- | --- | --- |
-| Ship | [Open](https://d1woqw06xb054i.cloudfront.net/login) | [Repo](https://github.com/StefanoCaruso456/Ship) |
+| Ship | [Open](https://d1woqw06xb054i.cloudfront.net/login) | [Repo](https://github.com/StefanoCaruso456/ShipShape_Gov) |
 | BrainStorm AI | [Open](https://brainstormaigauntletai.com/login) | [Repo](https://github.com/StefanoCaruso456/BrainstormAI) |
 | LegacyLens | [Open](https://www.nationalseismichazardmaps.com/) | [Repo](https://github.com/StefanoCaruso456/National-Seismic-Hazard-Maps) |
 | Ghostclone | [Open](https://app.ghostclone.xyz/en/start) | [Repo](https://github.com/StefanoCaruso456/Ghostfolio) |

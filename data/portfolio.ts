@@ -147,7 +147,7 @@ export const portfolioProjects: Project[] = [
     title: "Ship",
     category: "AI Workflow / Project Ops",
     url: "https://d1woqw06xb054i.cloudfront.net/login",
-    repoUrl: "https://github.com/StefanoCaruso456/Ship",
+    repoUrl: "https://github.com/StefanoCaruso456/ShipShape_Gov",
     domain: "d1woqw06xb054i.cloudfront.net",
     thumbnail: "/projects/ship.png",
     headline:
