@@ -2,6 +2,7 @@ export type Project = {
   title: string;
   category: string;
   url: string;
+  repoUrl: string;
   domain: string;
   thumbnail: string;
   headline: string;
@@ -42,10 +43,11 @@ export const portfolioContent: {
   stack: StackItem[];
 } = {
   name: "Stefano Caruso",
-  role: "Product builder for AI-first software, workflow systems, and launch-ready interfaces",
-  intro: "Building live software surfaces that turn complex product ideas into clear user experiences.",
+  role: "AI-first Product Leader",
+  intro:
+    "AI-first Product Leader with over 16 years of experience in data, and a strong track record in team building, stakeholder alignment and product delivery.",
   description:
-    "This portfolio is framed around real products instead of static mockups: AI collaboration, seismic intelligence, wealth tooling, runtime ops, and AI-assisted home design.",
+    "Leverages data and first-principles thinking to drive execution and business outcomes.",
   availability:
     "Open for product strategy, design systems, AI workflow design, and full-stack delivery for ambitious software teams.",
   navigation: ["Projects", "Services", "Process", "Stack", "Next Build"],
@@ -145,6 +147,7 @@ export const portfolioProjects: Project[] = [
     title: "Ship",
     category: "AI Workflow / Project Ops",
     url: "https://d1woqw06xb054i.cloudfront.net/login",
+    repoUrl: "https://github.com/StefanoCaruso456/Ship",
     domain: "d1woqw06xb054i.cloudfront.net",
     thumbnail: "/projects/ship.png",
     headline:
@@ -167,6 +170,7 @@ export const portfolioProjects: Project[] = [
     title: "BrainStorm AI",
     category: "AI Collaboration",
     url: "https://brainstormaigauntletai.com/login",
+    repoUrl: "https://github.com/StefanoCaruso456/BrainstormAI",
     domain: "brainstormaigauntletai.com",
     thumbnail: "/projects/brainstorm-gauntlet.png",
     headline:
@@ -189,6 +193,7 @@ export const portfolioProjects: Project[] = [
     title: "LegacyLens",
     category: "Code Intelligence",
     url: "https://www.nationalseismichazardmaps.com/",
+    repoUrl: "https://github.com/StefanoCaruso456/National-Seismic-Hazard-Maps",
     domain: "nationalseismichazardmaps.com",
     thumbnail: "/projects/national-seismic.png",
     headline:
@@ -211,6 +216,7 @@ export const portfolioProjects: Project[] = [
     title: "Ghostclone",
     category: "Wealth Dashboard",
     url: "https://app.ghostclone.xyz/en/start",
+    repoUrl: "https://github.com/StefanoCaruso456/Ghostfolio",
     domain: "app.ghostclone.xyz",
     thumbnail: "/projects/ghostclone.png",
     headline:
@@ -233,6 +239,7 @@ export const portfolioProjects: Project[] = [
     title: "Shipyard",
     category: "Runtime Tooling",
     url: "https://shipyard1.vercel.app/",
+    repoUrl: "https://github.com/StefanoCaruso456/ShipYard",
     domain: "shipyard1.vercel.app",
     thumbnail: "/projects/shipyard.png",
     headline:
@@ -255,6 +262,7 @@ export const portfolioProjects: Project[] = [
     title: "Projectz AI",
     category: "AI Design Marketplace",
     url: "https://projectzai.com/",
+    repoUrl: "https://github.com/StefanoCaruso456/ProjectzAI",
     domain: "projectzai.com",
     thumbnail: "/projects/projectzai.png",
     headline:
