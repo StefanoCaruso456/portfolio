@@ -208,6 +208,13 @@ export const portfolioProjects: Project[] = [
     category: "Code Intelligence",
     url: "https://www.nationalseismichazardmaps.com/",
     repoUrl: "https://github.com/StefanoCaruso456/National-Seismic-Hazard-Maps",
+    resourceLinks: [
+      {
+        href: "https://docs.google.com/videos/d/1E3QMDWkAdKTNO_135hMyiX9fMYaxbUs5oTHdef_syQI/edit?usp=sharing",
+        label: "Demo video",
+        tone: "blue",
+      },
+    ],
     domain: "nationalseismichazardmaps.com",
     thumbnail: "/projects/national-seismic.png",
     headline:
