@@ -197,9 +197,9 @@ export const portfolioProjects: Project[] = [
     domain: "nationalseismichazardmaps.com",
     thumbnail: "/projects/national-seismic.png",
     headline:
-      "Seismic code intelligence for understanding a legacy technical codebase with confidence.",
+      "Brownfield codebase audit platform for onboarding new hires, mapping dependencies and risk, and helping teams understand legacy systems with confidence.",
     summary:
-      "LegacyLens reframes a dense engineering system as something explorable, searchable, and explainable through chat, graph/hybrid search, and code-focused analysis modes.",
+      "LegacyLens helps engineers, product managers, and cross-functional teams audit complex legacy codebases by making dependencies, risks, system architecture, data flows, and user flows searchable and explainable. It supports faster onboarding for new hires, clearer planning across existing teams, and safer decision-making for organizations working inside brownfield systems.",
     tags: ["Legacy systems", "RAG", "Search", "Technical analysis"],
     highlights: [
       {
