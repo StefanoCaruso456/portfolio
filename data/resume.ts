@@ -123,7 +123,7 @@ export const resumeRoles: ResumeRole[] = [
     title: "Founder",
     period: "Jan 2016 - Jul 2022",
     context:
-      "Built a consulting business around analytics, client retention, and revenue growth across multiple business functions.",
+      "Built and led a global import business alongside a data analytics consulting practice, combining client delivery, operational execution, and revenue growth across multiple business functions.",
     badges: ["100+ accounts", "50% YoY growth", "$10.8M client value"],
     highlights: [
       "Grew the business through customer success, retention, and management of more than 100 accounts.",
