@@ -1,14 +1,17 @@
 {
-  "name": "portfolio-site",
+  "name": "portfolio-profile",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "capture:thumbnails": "./scripts/capture-project-thumbnails.sh"
   },
   "dependencies": {
+    "lucide-react": "^1.7.0",
+    "motion": "^12.38.0",
     "next": "16.2.1",
     "react": "19.2.4",
     "react-dom": "19.2.4"
