@@ -238,6 +238,13 @@ export const portfolioProjects: Project[] = [
     category: "Wealth Dashboard",
     url: "https://app.ghostclone.xyz/en/start",
     repoUrl: "https://github.com/StefanoCaruso456/Ghostfolio",
+    resourceLinks: [
+      {
+        href: "https://drive.google.com/file/d/1AM-8tT-vDfUGwB0fp8NTAGKIabXndpJH/view?usp=sharing",
+        label: "Demo video",
+        tone: "blue",
+      },
+    ],
     domain: "app.ghostclone.xyz",
     thumbnail: "/projects/ghostclone.png",
     headline:
