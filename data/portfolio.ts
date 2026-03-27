@@ -245,7 +245,7 @@ export const portfolioProjects: Project[] = [
     ],
   },
   {
-    title: "Ghostclone",
+    title: "Ghostfolio",
     category: "Wealth Dashboard",
     buildTime: "6-day build",
     url: "https://app.ghostclone.xyz/en/start",
