@@ -277,7 +277,7 @@ export const portfolioProjects: Project[] = [
   },
   {
     title: "Shipyard",
-    category: "Runtime Tooling",
+    category: "AI coding agent",
     buildTime: "6-day build",
     url: "https://shipyard1.vercel.app/",
     repoUrl: "https://github.com/StefanoCaruso456/ShipYard",
