@@ -131,6 +131,12 @@ export const resumeRoles: ResumeRole[] = [
     context:
       "Built and led a global import business alongside a data analytics consulting practice, combining client delivery, operational execution, and revenue growth across multiple business functions.",
     badges: ["100+ accounts", "50% YoY growth", "$10.8M client value"],
+    logoSrc: "/logos/uva-mare.png",
+    logoAlt: "Uva Mare logo",
+    logoWidth: 74,
+    logoHeight: 44,
+    logoClassName: "rounded-[8px]",
+    logoFrameClassName: "bg-white border-white/10 overflow-hidden",
     highlights: [
       "Grew the business through customer success, retention, and management of more than 100 accounts.",
       "Scaled revenue from $75K to $392K while expanding solutions across finance, production, marketing, and investments.",
