@@ -57,11 +57,8 @@ export function ResumeSection() {
                 className="neo-inset rounded-[26px] px-4 py-4 sm:px-5 sm:py-5"
                 key={`${role.company}-${role.title}`}
               >
-                <div className="flex flex-wrap items-start justify-between gap-4">
-                  <div className="space-y-2">
-                    <p className="text-[11px] uppercase tracking-[0.2em] text-white/34">
-                      {role.period}
-                    </p>
+                <div className="grid grid-cols-[minmax(0,1fr)_auto] items-start gap-3 sm:gap-4">
+                  <div className="min-w-0 space-y-2">
                     <div className="flex items-center gap-3">
                       {role.logoSrc ? (
                         <div
@@ -98,6 +95,10 @@ export function ResumeSection() {
                       </h3>
                     </div>
                   </div>
+
+                  <p className="pt-1 text-right text-[11px] uppercase tracking-[0.2em] whitespace-nowrap text-white/34">
+                    {role.period}
+                  </p>
                 </div>
 
                 <p className="mt-4 text-sm leading-7 text-white/66 sm:text-base">
@@ -141,13 +142,9 @@ export function ResumeSection() {
       <div className="grid gap-7 lg:grid-cols-2">
         <Reveal delay={0.2}>
           <div className="neo-panel rounded-[34px] px-5 py-6 sm:px-6 sm:py-7">
-            <div className="mb-6 space-y-2">
+            <div className="mb-6">
               <p className="eyebrow text-[10px] font-semibold text-white/42 sm:text-[11px]">
                 Skills
-              </p>
-              <p className="text-sm leading-7 text-white/58">
-                Structured by the capability groups that show up repeatedly
-                across the roles above.
               </p>
             </div>
 
@@ -181,13 +178,9 @@ export function ResumeSection() {
 
         <Reveal delay={0.24}>
           <div className="neo-panel rounded-[34px] px-5 py-6 sm:px-6 sm:py-7">
-            <div className="mb-6 space-y-2">
+            <div className="mb-6">
               <p className="eyebrow text-[10px] font-semibold text-white/42 sm:text-[11px]">
                 Education
-              </p>
-              <p className="text-sm leading-7 text-white/58">
-                Formal learning and role-specific training supporting the
-                product, data, and AI focus of the portfolio.
               </p>
             </div>
 
