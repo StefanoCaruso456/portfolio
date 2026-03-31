@@ -124,6 +124,7 @@ export const resumeRoles: ResumeRole[] = [
       "Wrote SQL powering a major finance dashboard and the ROI / OKR metrics behind it.",
       "Partnered with data engineers on backend pipeline design in Google BigQuery and metric definitions that drove decision-ready insights.",
       "Owned the Jira backlog, sprint ceremonies, dashboards, and reporting for directors and team leaders.",
+      "Served as the liaison between engineering and directors across the digital sales organization, identifying pain points and delivering data solutions that supported business goals and key milestones.",
     ],
   },
   {
