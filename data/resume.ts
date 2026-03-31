@@ -105,6 +105,7 @@ export const resumeRoles: ResumeRole[] = [
       "Designed an internal data-labeling solution that reduced bottlenecks and recurring defects while improving quality and evaluation insight.",
       "Built in-house observability dashboards, similar to Langfuse, to monitor model performance across quality, latency, and agent-workflow metrics.",
       "Led post-LLM data-labeling initiatives, using LLM-as-a-Judge to relabel customer-interaction outputs and improve classification quality.",
+      "Analyzed customer feedback to uncover user pain points, translated findings into actionable engineering priorities, and helped shift product roadmaps to improve customer experience and satisfaction.",
     ],
     note: "Official org titles held during this period: Engineering Tech, Quality Tech, Production Associate.",
   },
@@ -124,6 +125,7 @@ export const resumeRoles: ResumeRole[] = [
       "Wrote SQL powering a major finance dashboard and the ROI / OKR metrics behind it.",
       "Partnered with data engineers on backend pipeline design in Google BigQuery and metric definitions that drove decision-ready insights.",
       "Owned the Jira backlog, sprint ceremonies, dashboards, and reporting for directors and team leaders.",
+      "Served as the liaison between engineering and directors across the digital sales organization, identifying pain points and delivering data solutions that supported business goals and key milestones.",
     ],
   },
   {
