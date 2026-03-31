@@ -103,6 +103,8 @@ export const resumeRoles: ResumeRole[] = [
       "Owned frontend UX/UI for a vehicle defect tracking system used daily by 30K internal users.",
       "Led stakeholder alignment and prioritized Jira epics, features, and issues that drove a 6.25% increase in ROI.",
       "Designed an internal data-labeling solution that reduced bottlenecks and recurring defects while improving quality and evaluation insight.",
+      "Built in-house observability dashboards, similar to Langfuse, to monitor model performance across quality, latency, and agent-workflow metrics.",
+      "Led post-LLM data-labeling initiatives, using LLM-as-a-Judge to relabel customer-interaction outputs and improve classification quality.",
     ],
     note: "Official org titles held during this period: Engineering Tech, Quality Tech, Production Associate.",
   },
