@@ -155,12 +155,18 @@ export const resumeSkillGroups: SkillGroup[] = [
     description:
       "Bringing structure to ambiguity through vision, prioritization, stakeholder alignment, and delivery focus.",
     items: [
+      "Product strategy",
       "Product vision",
+      "User research",
+      "Voice of customer",
+      "Roadmap prioritization",
+      "Executive stakeholder alignment",
       "Stakeholder management",
       "PRDs",
       "Roadmaps",
       "Sprint planning",
       "Go-to-market strategy",
+      "User acquisition",
       "Direct client interaction",
     ],
   },
@@ -177,6 +183,8 @@ export const resumeSkillGroups: SkillGroup[] = [
       "RAG",
       "Prompt engineering",
       "LLM evaluation",
+      "AI evaluation",
+      "Observability",
       "Context management",
       "Generative AI",
     ],
@@ -186,6 +194,10 @@ export const resumeSkillGroups: SkillGroup[] = [
     description:
       "Designing the path from raw data through storage, transformation, governance, and decision-making.",
     items: [
+      "Systems architecture",
+      "Data flow mapping",
+      "Data governance",
+      "Privacy / compliance",
       "AWS",
       "Azure",
       "Google Cloud",
