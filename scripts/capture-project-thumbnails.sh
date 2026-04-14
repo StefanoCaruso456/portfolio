@@ -13,6 +13,7 @@ projects=(
   "national-seismic|https://www.nationalseismichazardmaps.com/"
   "ghostclone|https://app.ghostclone.xyz/en/start"
   "shipyard|https://shipyard1.vercel.app/"
+  "chatbox-audit|https://chatbox-audit.vercel.app"
   "projectzai|https://projectzai.com/"
 )
 

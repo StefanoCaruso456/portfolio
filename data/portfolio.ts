@@ -61,7 +61,7 @@ export const portfolioContent: {
   navigation: ["Projects", "Services", "Process", "Stack", "Next Build"],
   highlights: [
     {
-      value: "6 live products",
+      value: "7 live products",
       label: "captured from the active URLs you shared",
     },
     {
@@ -281,6 +281,13 @@ export const portfolioProjects: Project[] = [
     buildTime: "6-day build",
     url: "https://shipyard1.vercel.app/",
     repoUrl: "https://github.com/StefanoCaruso456/ShipYard",
+    resourceLinks: [
+      {
+        href: "https://drive.google.com/file/d/1uD9pcFnvT3gCr5Ho84KIhujjMEHY8Fd6/view",
+        label: "Demo video",
+        tone: "violet",
+      },
+    ],
     domain: "shipyard1.vercel.app",
     thumbnail: "/projects/shipyard.png",
     headline:
@@ -296,6 +303,37 @@ export const portfolioProjects: Project[] = [
       {
         label: "Experience move",
         value: "The product frames AI as a concrete production partner, not a novelty overlay.",
+      },
+    ],
+  },
+  {
+    title: "Chatbox Audit",
+    category: "AI Workspace",
+    buildTime: "6-day build",
+    url: "https://chatbox-audit.vercel.app",
+    repoUrl: "https://github.com/StefanoCaruso456/chatbox-audit",
+    resourceLinks: [
+      {
+        href: "https://drive.google.com/file/d/1aYtXNJgOI-KQ2I1GTOlQB-F0QUURQTbo/view?usp=sharing",
+        label: "Demo video",
+        tone: "violet",
+      },
+    ],
+    domain: "chatbox-audit.vercel.app",
+    thumbnail: "/projects/chatbox-audit.png",
+    headline:
+      "Multi-provider AI workspace extended into a governed app platform where chat, files, projects, and approved runtime tools live in one surface.",
+    summary:
+      "Chatbox Audit evolves a desktop-first AI client into a broader workspace for model switching, organized projects, local-first history, and app-aware workflows. The fork adds approved app support, orchestration, trust controls, and backend logging so the product can support education and productivity use cases beyond plain chat.",
+    tags: ["AI workspace", "App platform", "Governance", "Multi-provider"],
+    highlights: [
+      {
+        label: "Live signal",
+        value: "Chatbox shell expanded with a cleaner workspace and app-aware product direction.",
+      },
+      {
+        label: "Experience move",
+        value: "Approved apps and chat context are designed to work together instead of living in separate tools.",
       },
     ],
   },
