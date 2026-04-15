@@ -343,13 +343,6 @@ export const portfolioProjects: Project[] = [
     buildTime: "5-month build",
     url: "https://projectzai.com/",
     repoUrl: "https://github.com/StefanoCaruso456/ProjectzAI",
-    resourceLinks: [
-      {
-        href: "/pitch-decks/projectz-ai-pitch-deck.pdf",
-        label: "Pitch deck",
-        tone: "amber",
-      },
-    ],
     domain: "projectzai.com",
     thumbnail: "/projects/projectzai.png",
     headline:
